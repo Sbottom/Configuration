@@ -1,0 +1,27 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# LaTeX           #
+###################
+*.aux
+*.log
+*.out
+*.pdf
+*.gz
+
+
+# File backup     #
+###################
+*~
+
+
+# ROOT            #
+###################
+*.root
