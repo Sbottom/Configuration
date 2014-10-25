@@ -1,7 +1,7 @@
 Configuration
 =============
 
-git remote add master git@github.com:Sbottom/Configuration
+git remote add origin git@github.com:Sbottom/Configuration
 
 
 Git ignore:
