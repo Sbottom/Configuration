@@ -3,6 +3,9 @@
 # Latest python and GIT
 export PATH='/vols/cms03/mc3909/python/Python-2.7.6/':'/vols/cms04/mb1512/git':$PATH
 
+#Onyx - specific
+#xrandr --output DVI-0 --primary
+
 
 # Get multicrab jobs and store in config files
 alias getMulticrab="~/.scripts/Jobs/getMultiCRABJobs.py "
@@ -201,7 +204,7 @@ alias mv="mv -i"
 
 # wipe the screen and ls
 alias cls="clear;ls"
-
+alias ls="ls --color"
 
 # Git ahead and behind for your command prompt :)                                                         
 function ahead_behind {
