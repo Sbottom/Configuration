@@ -6,7 +6,13 @@ export PATH='/vols/cms03/mc3909/python/Python-2.7.6/':'/vols/cms04/mb1512/git':$
 #Onyx - specific
 #xrandr --output DVI-0 --primary
 
+alias renewCernToken="kinit mbaber@CERN.CH"
+alias loginAfs="aklog"
 
+alias loadAFS="renewCernToken;loginAfs"
+
+alias mountICDrives="sshfs -o workaround=rename mb1512@lx06.hep.ph.ic.ac.uk:/home/hep/mb1512 ~/Imperial_Mount/mb1512"#;sshfs -o workaround=rename mb1512@lx06.hep.ph.ic.ac.uk:/vols ~/Imperial_Mount/vols"
+alias unmountICDrives="fusermount -u ~/Imperial_Mount/mb1512"#;fusermount -u ~/Imperial_Mount/vols"
 # Get multicrab jobs and store in config files
 alias getMulticrab="~/.scripts/Jobs/getMultiCRABJobs.py "
 
